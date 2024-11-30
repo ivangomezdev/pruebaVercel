@@ -44,7 +44,7 @@ export const chatsPage = () => {
 
 const chatEvent = (event: Event) => {
   event.preventDefault();
-  fetch(`http://localhost:3000/rooms/chat/${state.id}`, {
+  fetch(`https://serverchat-zek5.onrender.com/rooms/chat/${state.id}`, {
     method: "POST",
     body: JSON.stringify({
       creator: state.myName,

@@ -141,7 +141,7 @@ export const inicioWindow = () => {
     const inputRoomVal = inputRoom.value;
    
     const inputRoomIdVal = inputRoomId.value;
-    const JOIN_ROOM = `https://serverchat-zek5.onrender.com/${inputRoomIdVal}`;
+    const JOIN_ROOM = `https://serverchat-zek5.onrender.com/rooms/${inputRoomIdVal}`;
     state.myName = inputNameVal;
 
   

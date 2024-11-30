@@ -2,7 +2,7 @@ import { goTo } from "../routes";
 import { state } from "../state/state";
 
 
-const CREATE_ROOM = "http://localhost:3000/rooms";
+const CREATE_ROOM = "/rooms";
 
 const nameForm = document.createElement("form") as HTMLFormElement;
 const style = document.createElement("style");
@@ -141,7 +141,7 @@ export const inicioWindow = () => {
     const inputRoomVal = inputRoom.value;
    
     const inputRoomIdVal = inputRoomId.value;
-    const JOIN_ROOM = `http://localhost:3000/rooms/${inputRoomIdVal}`;
+    const JOIN_ROOM = `/rooms/${inputRoomIdVal}`;
     state.myName = inputNameVal;
 
   

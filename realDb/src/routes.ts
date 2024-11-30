@@ -23,6 +23,8 @@ const cors = require("cors");
 const app = express();
 const rtdb = getDatabase();
 let idRoom = "";
+const port = process.env.PORT || 3000;
+
 
 app.use(cors());
 app.use(express.json());
@@ -91,6 +93,6 @@ app.post("/rooms/chat/:id", (req, res) => {
 });
 
 
-app.listen("3000", () => {
+app.listen(port, () => {
   console.log("server ok");
 });

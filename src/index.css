@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.formName{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.page{
+   
+    position: fixed; /* Para que el div quede fijo */
+    bottom: 0;       /* Ubicado al fondo */
+    left: 50%;       /* Mueve el div al 50% del ancho */
+    transform: translateX(-50%); /* Centra el div horizontalmente */
+    padding: 10px 20px; /* Espaciado opcional */
+    background-color: lightblue; /* Color de fondo para visibilidad */
+    text-align: center; /* Centrado del texto */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+    width: 100%;
+
+}
+
+.roomId{
+background-color:#ADD8E6;
+margin-bottom: 10px;
+padding: 5px;
+
+}
+
+img{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+   
+}

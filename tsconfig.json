@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                    // Versión de JavaScript que deseas generar.
+    "module": "ESNext",  
+    "types": ["firebase/database"],                 // Sistema de módulos (ideal para ESM).
+    "moduleResolution": "Node",           // Resolución de módulos compatible con Node.js.
+    "outDir": "./dist",                   // Carpeta de salida para los archivos compilados.
+    "rootDir": "./src",                   // Carpeta raíz del código fuente.
+    "strict": true,                       // Activa todas las comprobaciones estrictas.
+    "esModuleInterop": true,              // Permite importar CommonJS con `import`.
+    "resolveJsonModule": true,            // Soporte para importar archivos JSON.
+    "skipLibCheck": true,                 // Ignorar comprobaciones en archivos de declaración.
+    "forceConsistentCasingInFileNames": true // Asegura consistencia en nombres de archivo.
+  },
+  "include": ["src"],                     // Archivos/directorios que TypeScript debe compilar.
+  "exclude": ["node_modules", "dist"]     // Archivos que no se deben compilar.
+}

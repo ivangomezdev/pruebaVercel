@@ -2,7 +2,7 @@ import { goTo } from "../routes";
 import { state } from "../state/state";
 
 
-const CREATE_ROOM = "https://prueba-vercel-gilt-alpha.vercel.app/rooms";
+const CREATE_ROOM = "prueba-vercel-gilt-alpha.vercel.app/rooms";
 
 const nameForm = document.createElement("form") as HTMLFormElement;
 const style = document.createElement("style");
@@ -141,7 +141,7 @@ export const inicioWindow = () => {
     const inputRoomVal = inputRoom.value;
    
     const inputRoomIdVal = inputRoomId.value;
-    const JOIN_ROOM = `https://prueba-vercel-gilt-alpha.vercel.app/rooms/${inputRoomIdVal}`;
+    const JOIN_ROOM = `prueba-vercel-gilt-alpha.vercel.app/rooms/${inputRoomIdVal}`;
     state.myName = inputNameVal;
 
   
